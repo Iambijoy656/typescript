@@ -39,12 +39,12 @@ friends.push(...newFriends);
 
 
 
-const [bestFriends,bondu]=friends
-console.log(bestFriends)
+// const [bestFriends,bondu]=friends
+// console.log(bestFriends)
 
-const myBestFriends ={
-    fullName:'abul basar',
-    age:20
-}
+// const myBestFriends ={
+//     fullName:'abul basar',
+//     age:20
+// }
 
-const {fullName,age}=myBestFriends
+// const {fullName,age}=myBestFriends
