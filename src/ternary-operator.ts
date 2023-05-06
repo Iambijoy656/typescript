@@ -45,6 +45,9 @@ address:{
 const home = manush1.address.home??"No Home"
 console.log(home)
 
+
+//----------------------------------------------------------------//
+
 function generateAdder(a: number): (b: number) => number {
 
     return function(b: number) {
@@ -54,7 +57,6 @@ function generateAdder(a: number): (b: number) => number {
     };
   
   }
-  
   
   
   const addTwo = generateAdder(2);
