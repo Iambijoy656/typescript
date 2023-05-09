@@ -22,6 +22,13 @@ type d = a1 extends null
   }
 type A = keyof Sheik; // 'wife1' \  'wife2'
                     // 'wife1' extends 'wife1 \ 'wife2'
-                    
+
   type CheckProperties<T,k> = k extends keyof Sheik ?true : false
-  type CheckWife1 = CheckProperties<Sheik,'wife1'>
+  type CheckWife1 = CheckProperties<Sheik,'wife3'>
+
+
+  //----------------------------------------------------------------//
+type Bandupi = 'Monica' | 'Tithi' | 'jonaki'
+type RemoveBandupi<T,k> = T extends k ? never : T;
+
+type CurrentBandopi = RemoveBandupi<Bandupi,'jonaki'>
